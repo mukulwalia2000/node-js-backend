@@ -12,22 +12,22 @@ function fun(x,fn){
     // some more logic
 }
 
-// fun(10,function log(){
-//     // this is the callback function 
-//     console.log("Custom logger");
-// });
+fun(10,function log(){
+    // this is the callback function 
+    console.log("Custom logger");
+});
 
 // fun(20,function(){
 //     console.log("anonymous logger");
 // });
 
 
-let g = function process(){
-    console.log("inside g");
-}
+// let g = function process(){
+//     console.log("inside g");
+// }
 
-function gun(){
-    console.log("inside gun");
-}
-fun(10,gun); // passing the function g as a callback
-//  fun(2,g()); // -> fun (2,undefined) 
+// function gun(){
+//     console.log("inside gun");
+// }
+// fun(10,gun); // passing the function g as a callback
+// //  fun(2,g()); // -> fun (2,undefined) 
