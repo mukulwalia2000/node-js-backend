@@ -13,6 +13,15 @@
 
 
 
+console.log("start");
+setTimeout(function execute(){
+    // Your code here
+    console.log('Hello World');
+},0);
+console.log("end");
+
+
+
 let id1 = setTimeout(function execute(){
     // Your code here
     console.log('task completed 1');
