@@ -5,5 +5,5 @@ function a(name){
 }
 
 let x= a("mukul");
-console.log();
+console.log(x);
 x();
