@@ -13,12 +13,12 @@
 
 
 
-console.log("start");
-setTimeout(function execute(){
-    // Your code here
-    console.log('Hello World');
-},0);
-console.log("end");
+// console.log("start");
+// setTimeout(function execute(){
+//     // Your code here
+//     console.log('Hello World');
+// },0);
+// console.log("end");
 
 
 
