@@ -18,14 +18,16 @@ function demo2(val){
         console.log("Start");
         setTimeout(function process(){
             console.log("End");
-            if(x%2==0){
+            if(val%2==0){
                 // even number
                 resolve("even");
             } else{
                 // odd number
                 reject("odd");  
             }
-        },10000);
+        },1000);
         console.log("Somewhere");
 });
 }
+a= demo2(4);
+console.log(a);
