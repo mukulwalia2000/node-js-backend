@@ -1,12 +1,15 @@
-// const promise1 = new Promise((resolve) => {
-//     setTimeout(() => {
-//         resolve("First");
-//     }, 2000);
-// });
+const promise1 = new Promise((resolve) => {
+    setTimeout(() => {
+        resolve("First");
+    }, 2000);
+});
 
 const promise2 = new Promise((resolve) => {
     setTimeout(() => {
         resolve("Second");
+    }, 1000);
+    setTimeout(() => {
+        resolve("third");
     }, 1000);
 });
 
