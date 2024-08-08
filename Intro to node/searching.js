@@ -6,3 +6,12 @@ function linearSearch(arr,x){
 }
 return NaN;
 }
+
+function binarySearch(arr,x){
+    // some implementation
+}
+
+module.exports={
+    linear: linearSearch,
+    binary: binarySearch
+}
