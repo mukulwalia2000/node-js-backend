@@ -51,18 +51,30 @@
 
 
 
-var teacher ="mukul";
-function fun(){
-    console.log(subject);  // undefined
-    var teacher = "rohit";
-    var subject="javascript";
-    teachingAssistant="sanit";
-    console.log(teacher);
-    console.log(teachingAssistant);
+// var teacher ="mukul";
+// function fun(){
+//     console.log(subject);  // undefined
+//     var teacher = "rohit";
+//     var subject="javascript";
+//     teachingAssistant="sanit";
+//     console.log(teacher);
+//     console.log(teachingAssistant);
+// }
+
+// fun();
+// console.log(teacher);
+// console.log(teachingAssistant);  // autoglobal
+
+
+
+function outerFunction() {
+    let outerVar = 'I am from outer scope';
+    
+    function innerFunction() {
+        console.log(outerVar); // Can access outerVar due to lexical scoping
+    }
+    
+    innerFunction();
 }
 
-fun();
-console.log(teacher);
-console.log(teachingAssistant);  // autoglobal
-
-
+outerFunction(); // Output: I am from outer scope
