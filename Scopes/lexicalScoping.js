@@ -67,14 +67,29 @@
 
 
 
-function outerFunction() {
-    let outerVar = 'I am from outer scope';
+// function outerFunction() {
+//     let outerVar = 'I am from outer scope';
     
-    function innerFunction() {
-        console.log(outerVar); // Can access outerVar due to lexical scoping
+//     function innerFunction() {
+//         console.log(outerVar); // Can access outerVar due to lexical scoping
+//     }
+    
+//     innerFunction();
+// }
+
+// outerFunction(); // Output: I am from outer scope
+
+
+
+
+function parentFunction() {
+    let parentVar = 'I am in the parent scope';
+    
+    function childFunction() {
+        console.log(parentVar); // childFunction can access parentVar
     }
     
-    innerFunction();
+    childFunction();
 }
 
-outerFunction(); // Output: I am from outer scope
+parentFunction(); // Output: I am in the parent scope
