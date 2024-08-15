@@ -22,13 +22,29 @@
 
 
 
-let id1 = setTimeout(function execute(){
+// let id1 = setTimeout(function execute(){
+//     // Your code here
+//     console.log('task completed 1');
+// },10000);
+
+// let id2 = setTimeout(function execute(){
+//     // Your code here
+//     console.log('task completed 2');
+//     clearTimeout(id1);
+// },5000);
+
+
+
+const id1 = setTimeout(function execute(){
     // Your code here
     console.log('task completed 1');
 },10000);
 
-let id2 = setTimeout(function execute(){
+const id2 = setTimeout(function execute(){
     // Your code here
     console.log('task completed 2');
     clearTimeout(id1);
 },5000);
+
+
+
