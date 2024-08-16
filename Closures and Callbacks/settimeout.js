@@ -53,7 +53,7 @@ var id1 = setTimeout(function execute(){
     console.log('task completed 1');
 },10000);
 
-var id2 = setTimeout(function execute(){
+let id2 = setTimeout(function execute(){
     // Your code here
     console.log('task completed 2');
     clearTimeout(id1);
