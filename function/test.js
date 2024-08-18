@@ -15,5 +15,5 @@ function addNumbers(a, b) {
 }
 
 // Calling the function
-const result = addNumbers(5, 10);
+const result = addNumbers(5, 10,8);
 console.log(result); // Output: 15
