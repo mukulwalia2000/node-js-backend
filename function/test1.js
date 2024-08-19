@@ -4,4 +4,3 @@ let fun = function(){
 }
 
 //fun();
-console.log(fun());
