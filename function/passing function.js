@@ -22,7 +22,7 @@ function gun(fn){
     
 }
 
-// gun(function(){
-//     console.log("new function passed");
-// });
-console.trace();
+gun(function(){
+    console.log("new function passed");
+});
+// console.trace();
