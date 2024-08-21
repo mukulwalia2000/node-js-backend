@@ -30,4 +30,4 @@ function demo2(val){
 });
 }
 a= demo2(4);
-console.log(a);
+// console.log(a);
