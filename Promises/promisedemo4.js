@@ -5,7 +5,7 @@ function fetchdata(url){
             let data ="Dummy download data";
             console.log("download completed");
             resolve(data);
-        },10000);
+        },3000);
         console.log("Timer to mimic download started");
     });
 }
