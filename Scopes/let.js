@@ -4,13 +4,13 @@
 // }
 // console.log(x);  // error 
 
-// if(true)
-// {
-//     let x = 5;
-//     console.log(x);  // let is always access in the block
-// }
+if(true)
+{
+    let x = 5;
+    console.log(x);  // let is always access in the block
+}
 
-// console.log(x);
+console.log(x);
 
 // if(false)
 //     {
