@@ -1,8 +1,8 @@
-// {
-//     let x=10;
-//     console.log(x);   // let is always access in the block
-// }
-// console.log(x);  // error 
+{
+    let x=10;
+    console.log(x);   // let is always access in the block
+}
+console.log(x);  // error 
 
 // if(true)
 // {
@@ -12,13 +12,13 @@
 
 // console.log(x);
 
-if(false)
-    {
-        let x = 5;
-        console.log(x);  // let is always access in the block
-    }
+// if(false)
+//     {
+//         let x = 5;
+//         console.log(x);  // let is always access in the block
+//     }
     
-   console.log(x);
+//    console.log(x);
 
  
 
