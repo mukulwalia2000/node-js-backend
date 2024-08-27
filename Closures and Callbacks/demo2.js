@@ -7,6 +7,6 @@ function todo(task){
     console.log("End of todo");
 }
 
-console.log("Starting");
+// console.log("Starting");
 todo("assignments");
 console.log("Ending");
