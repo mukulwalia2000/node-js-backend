@@ -4,6 +4,6 @@ function a(name){
     }
 }
 
-let x= a("mukul");
+const x= a("mukul");
 console.log(x);
 x();
