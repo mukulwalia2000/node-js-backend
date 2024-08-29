@@ -4,6 +4,6 @@ function a(name){
     }
 }
 
-const y= a("mukul");
-console.log(y);
-y();
+const x= a("mukul");
+console.log(x);
+x();
