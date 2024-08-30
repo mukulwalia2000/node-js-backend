@@ -1,9 +1,9 @@
-function a(name){
+function test(name){
     return function b(){
         console.log(name);
     }
 }
 
-const x= a("mukul");
+const x= test("mukul");
 console.log(x);
 x();
