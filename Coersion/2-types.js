@@ -2,7 +2,7 @@
 
 console.log(12);
 console.log(3.45);
-console.log(-45);
+console.log(-56);
 console.log(0);
 console.log(-0);
 
