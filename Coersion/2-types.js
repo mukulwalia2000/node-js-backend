@@ -20,6 +20,7 @@ console.log(false);
 //undefines, Null
 console.log(undefined);
 console.log(null);
+console.log(NaN);
 
 // object
 console.log({name: "John", age: 30, isMarried: true});
