@@ -51,7 +51,7 @@
 var id1 = setTimeout(function execute(){
     // Your code here
     console.log('task completed 1');
-},10000);
+},6000);
 
 let id2 = setTimeout(function execute(){
     // Your code here
