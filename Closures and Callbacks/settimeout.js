@@ -35,26 +35,26 @@
 
 
 
-// const id1 = setTimeout(function execute(){
-//     // Your code here
-//     console.log('task completed 1');
-// },10000);
-
-// const id2 = setTimeout(function execute(){
-//     // Your code here
-//     console.log('task completed 2');
-//     clearTimeout(id1);
-// },5000);
-
-
-
-var id1 = setTimeout(function execute(){
+const id1 = setTimeout(function execute(){
     // Your code here
     console.log('task completed 1');
-},6000);
+},10000);
 
-let id2 = setTimeout(function execute(){
+const id2 = setTimeout(function execute(){
     // Your code here
     console.log('task completed 2');
     clearTimeout(id1);
 },5000);
+
+
+
+// var id1 = setTimeout(function execute(){
+//     // Your code here
+//     console.log('task completed 1');
+// },6000);
+
+// let id2 = setTimeout(function execute(){
+//     // Your code here
+//     console.log('task completed 2');
+//     clearTimeout(id1);
+// },5000);
