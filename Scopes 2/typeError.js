@@ -3,5 +3,5 @@ function gun(){
     console.log("hello world");
 }
  gun();
- fun();   // type error
- 
+//  fun();   // type error
+ gun();
