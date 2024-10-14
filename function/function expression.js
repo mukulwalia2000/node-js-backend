@@ -17,7 +17,7 @@
 // console.log(add(5, 3)); // Output: 8
 
 
-const multiply = (x, y) => x * y;
+// const multiply = (x, y) => x * y;
 
-// Calling the function
-console.log(multiply(4, 5)); // Output: 20
+// // Calling the function
+// console.log(multiply(4, 5)); // Output: 20

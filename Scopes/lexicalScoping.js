@@ -1,11 +1,11 @@
-// var teacher ="mukul";
-// function fun(){
-//     var teacher = "rohit";
-//     console.log(teacher);
-// }
-// console.log(teacher);
+var teacher ="mukul";
+function fun(){
+    var teacher = "rohit";
+    console.log(teacher);
+}
+console.log(teacher);
 
-// fun();
+fun();
 
 
 
@@ -67,17 +67,17 @@
 
 
 
-function outerFunction() {
-    let outerVar = 'I am from outer scope';
+// function outerFunction() {
+//     let outerVar = 'I am from outer scope';
     
-    function innerFunction() {
-        console.log(outerVar); // Can access outerVar due to lexical scoping
-    }
+//     function innerFunction() {
+//         console.log(outerVar); // Can access outerVar due to lexical scoping
+//     }
     
-    innerFunction();
-}
+//     innerFunction();
+// }
 
-outerFunction(); // Output: I am from outer scope
+// outerFunction(); // Output: I am from outer scope
 
 
 

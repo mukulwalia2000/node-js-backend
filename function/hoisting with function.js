@@ -1,7 +1,7 @@
-// fun();                             
-// function fun(){
-//     console.log("Hello");
-// }
+fun();                             
+function fun(){
+    console.log("Hello");
+}
 
 // normal function declaration
 // function is hoisted
@@ -17,8 +17,8 @@
 
 
 // This will throw an error because the function is not yet defined
-greet(); // Error: greet is not a function
+// greet(); // Error: greet is not a function
 
-const greet = function() {
-    console.log('Hi there!');
-};
+// const greet = function() {
+//     console.log('Hi there!');
+// };
